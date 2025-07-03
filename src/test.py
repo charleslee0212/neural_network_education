@@ -5,7 +5,7 @@ if __name__ == "__main__":
     images_test = load_images("t10k-images.idx3-ubyte")
     labels_test = load_labels("t10k-labels.idx1-ubyte")
 
-    neural_network = NeuralNetwork.load("model.json")
+    neural_network = NeuralNetwork.load("relu_model.json")
 
     right = 0
 
